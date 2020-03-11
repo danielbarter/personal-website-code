@@ -1,5 +1,6 @@
 module Main where
 
+import System.Directory (createDirectoryIfMissing)
+
 main :: IO ()
-main = do
-  putStrLn "hello world"
+main = createDirectoryIfMissing False "site"
