@@ -75,6 +75,7 @@ hashFile path = do bs <- B.readFile path
                    let bsHash = hash bs
                    B.writeFile (path -<.> "md5") bsHash
 
+
 hasFileChanged :: FilePath -> IO Bool
 hasFileChanged path = do b <- doesFileExist (path -<.> "md5")
                          if (not b) -- file doesn't exist
