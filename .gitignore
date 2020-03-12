@@ -25,6 +25,7 @@ cabal.project.local~
 .ghc.environment.*
 
 CV.tex
+danielbarter.pdf
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:

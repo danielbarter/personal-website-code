@@ -1,1 +1,1 @@
-# personal-website-code
+My personal website. The old version is here https://github.com/danielbarter/personal_website_code_old It was written in 2016 before I knew anything about the internet and has not aged well. There is still a bunch of random stuff in the old repository which didn't get transferred over in case you are looking for it.
