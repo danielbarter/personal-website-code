@@ -1,7 +1,3 @@
----
-title: CV
----
-
 #Daniel Barter
 
 - website: [danielbarter.github.io](http://danielbarter.github.io/)

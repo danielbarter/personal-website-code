@@ -1,7 +1,3 @@
----
-title: tableau
----
-
 # Tableau
 
 This is a small game I wrote to demonstrate some of the combinatorics which appears when you study the representation theory of the symmetric group. First you need to choose a weakly decreasing sequence of positive numbers for example `4 3 2` or `5 4 4 1`. In representation theory, we call this a **partition**. You will be presented with a configuration which looks like:
