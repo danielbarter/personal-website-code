@@ -40,6 +40,7 @@ main =
      pmd "./content/markdown/tableau.md" "./site/tableau.html"
      copy "./content/js/mix.js" "./site/js/mix.js"
      copy "./content/js/tableau.js" "./site/js/tableau.js"
+     copy "./content/css/style.css" "./site/style.css"
      gifContents <- listDirectory "./content/gif"
      let gifNames = filter (not . isExtensionOf "md5") gifContents
      let gifSources = ("./content/gif/" ++ ) <$> gifNames
