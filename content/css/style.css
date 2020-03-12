@@ -20,6 +20,8 @@ pre { border:solid 1px #c3c3c3;
       overflow-x:auto
     }
 
+nav { overflow-x:auto
+    }
 
 img { border-radius:8px 8px 8px 8px;
       max-width: 100%;
