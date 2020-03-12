@@ -5,10 +5,13 @@ module Main where
 import System.Directory ( createDirectoryIfMissing
                         , setCurrentDirectory
                         , doesFileExist
+                        , copyFile
+                        , listDirectory
                         )
 
 import System.FilePath.Posix ( (-<.>)
                              , takeBaseName
+                             , isExtensionOf
                              )
 
 import Text.Pandoc.Class ( runPure
@@ -16,6 +19,7 @@ import Text.Pandoc.Class ( runPure
 
 import Text.Pandoc.Readers.Markdown
 import Text.Pandoc.Writers.HTML
+import Text.Pandoc.Writers.LaTeX
 import Text.Pandoc.Options
 import Text.Pandoc.Error
 import qualified Data.ByteString as B
@@ -28,23 +32,78 @@ main :: IO ()
 main =
   do setCurrentDirectory "/home/danielbarter/personal-website-code"
      createDirectoryTree
-     process ( Right . id ) "./content/html/home.html" "./site/index.html"
-     process markdownToHTML "./content/markdown/CV.md" "./site/CV.html"
-     process markdownToHTML "./content/markdown/publickey.md" "./site/publickey.html"
-     process markdownToHTML "./content/markdown/mix.md" "./site/mix.html"
-     process markdownToHTML "./content/markdown/tableau.md" "./site/tableau.html"
+     processText ( Right . id ) "./content/html/home.html" "./site/index.html"
+     pmd "./content/markdown/CV.md" "./site/CV.html"
+     cvTex "./content/markdown/CV.md" "./content/tex/CV.tex"
+     pmd "./content/markdown/publickey.md" "./site/publickey.html"
+     pmd "./content/markdown/mix.md" "./site/mix.html"
+     pmd "./content/markdown/tableau.md" "./site/tableau.html"
+     copy "./content/js/mix.js" "./site/js/mix.js"
+     copy "./content/js/tableau.js" "./site/js/tableau.js"
+     gifContents <- listDirectory "./content/gif"
+     let gifNames = filter (not . isExtensionOf "md5") gifContents
+     let gifSources = ("./content/gif/" ++ ) <$> gifNames
+     let gifTargets = ("./site/gif/" ++ ) <$> gifNames
+     sequence $ zipWith copy gifSources gifTargets
+     imgContents <- listDirectory "./content/img"
+     let imgNames = filter (not . isExtensionOf "md5") imgContents
+     let imgSources = ("./content/img/" ++ ) <$> imgNames
+     let imgTargets = ("./site/img/" ++ ) <$> imgNames
+     sequence $ zipWith copy imgSources imgTargets
+     pdfContents <- listDirectory "./content/pdf"
+     let pdfNames = filter (not . isExtensionOf "md5") pdfContents
+     let pdfSources = ("./content/pdf/" ++ ) <$> pdfNames
+     let pdfTargets = ("./site/pdf/" ++ ) <$> pdfNames
+     sequence $ zipWith copy pdfSources pdfTargets
+     return ()
+  where pmd = processText markdownToHTML
 
 
 
 markdownToHTML :: T.Text -> Either PandocError T.Text
-markdownToHTML t = runPure $ readMarkdown def t >>= ( writeHtml5String def )
+markdownToHTML t =
+  runPure $ readMarkdown mdReaderOptions t >>= ( writeHtml5String htmlWriterOptions )
+  where mdReaderOptions =
+          def { readerExtensions =
+               enableExtension Ext_tex_math_dollars githubMarkdownExtensions
+              }
+        htmlWriterOptions =
+          def { writerHTMLMathMethod = MathJax defaultMathJaxURL }
 
-process :: (T.Text -> Either PandocError T.Text)
-        -> FilePath -> FilePath -> IO ()
-process transformer source target =
+
+markdownToTex :: T.Text -> Either PandocError T.Text
+markdownToTex t =
+  runPure $ readMarkdown mdReaderOptions t >>= ( writeLaTeX def )
+  where mdReaderOptions =
+          def { readerExtensions =
+               enableExtension Ext_tex_math_dollars githubMarkdownExtensions
+              }
+
+-- TODO: factor out hash checking
+copy :: FilePath -> FilePath -> IO ()
+copy source destination =
+  do b <- hasFileChanged source
+     if (not b)
+       then return ()
+       else do hashFile source
+               copyFile source destination
+               putStrLn ("copied " ++ source)
+
+cvTex :: FilePath -> FilePath -> IO ()
+cvTex source destination =
+  do body <- T.readFile source
+     case markdownToTex body of
+       Left err -> putStrLn $ show err
+       Right result -> do
+         T.writeFile destination result
+         putStrLn ("produced " ++ destination)
+
+processText :: (T.Text -> Either PandocError T.Text)
+            -> FilePath -> FilePath -> IO ()
+processText transformer source target =
   do b <- hasFileChanged source
      if (not b) -- file hasn't changed
-       then putStrLn (source ++ " unmodified")
+       then return ()
        else do hashFile source
                body <- T.readFile source
                case transformer body of
@@ -55,7 +114,7 @@ process transformer source target =
                    let template' = T.replace "$title$" title template
                    let result = T.replace "$body$" body' template'
                    T.writeFile target result
-                   putStrLn (source ++ " updated")
+                   putStrLn ("updated " ++ source)
 
 
 

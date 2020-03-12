@@ -12,6 +12,9 @@ When you click on a number, say `n`, it will swap `n` and `n+1` as long as they 
 
 ### The game
 
+
+<script src="./js/tableau.js"></script>
+
 <div id="tableau1"></div>
 <script>
     var node = document.getElementById('tableau1');

@@ -4,6 +4,9 @@
 
 This is a simulator for Knuth\'s MIX machine from the book [Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). We use the identifier 1010 because this machine is slightly different from MIX 1009. We encode masks using binary and there is no division or multiplication instructions. A detailed readme and instruction list can be found on [github](https://github.com/danielbarter/elm-mix).
 
+
+<script src="./js/mix.js"></script>
+
 <div id="mix1"></div>
 <script>
     var node = document.getElementById('mix1');
@@ -12,7 +15,7 @@ This is a simulator for Knuth\'s MIX machine from the book [Art of Computer Prog
 
 Statements in the assembler language look like **(:label) (/mask) (instruction) (relative address) (+index)**. Instuctions in memory look like **address(:label) (/mask) (instruction) (address) (+index)**. Here is an example multiplication routine:
 
-```{.algorithm}
+```
 # multiplication routine
 :start LDA y
 JAZ end
@@ -32,7 +35,7 @@ HLT
 ```
 
 Here is a variant of this routine which is self modifying:
-```{.algorithm}
+```
 # modify the instruction located at end
 LDA end
 INCA 7
@@ -57,7 +60,7 @@ HLT
 ```
 
 Here is an example where we loop through a zero terminated array and increment each entry by 1:
-```{.algorithm}
+```
 #routine
 
 :start LDA x +1
@@ -80,7 +83,7 @@ JMP start
 ```
 
 Here is an example where we compute the maximum in an array of numbers.
-```{.algorithm}
+```
 ENT1 x
 LD2 x_length
 :loop J2Z end
@@ -108,7 +111,7 @@ JMP t
 ```
 
 Here is an example where we add up all the numbers on a stack:
-```{.algorithm}
+```
 # adding up all the numbers on the stack.
 
 # we maintain the stack pointer in I6
@@ -145,7 +148,7 @@ JMP 0 +1
 
 We can expand this example out into a programmable stack calculator with addition and multiplication operations:
 
-```{.algorithm}
+```
 # programmable stack calculator.
 
 # we maintain the stack pointer in I6
@@ -230,7 +233,7 @@ JMP 0 +1
 ```
 
 here is an example where we traverse a binary tree with an integer stored at each node and increment those integers.
-```{.algorithm}
+```
 ENT6 stack_top
 :loop JMP inc_node
 LDA 0 +6

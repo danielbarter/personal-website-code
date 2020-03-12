@@ -1,4 +1,4 @@
-#Daniel Barter
+# Daniel Barter
 
 - website: [danielbarter.github.io](http://danielbarter.github.io/)
 - email: <danielbarter@gmail.com>

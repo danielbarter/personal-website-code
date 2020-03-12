@@ -24,6 +24,8 @@ cabal.project.local~
 .HTF/
 .ghc.environment.*
 
+CV.tex
+
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.lof
