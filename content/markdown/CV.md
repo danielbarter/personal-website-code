@@ -5,7 +5,8 @@
 
 
 ## Employment
-- University of California, Santa Barbara. September 2019 - . Lecturer and Postdoctoral Fellow. Thinking about exactly solvable models in quantum field theory. Lecturer and course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
+- Mercury Technologies, Inc. April 2020 - . Software Engineer. Technology stack: Haskell, PostgreSQL, Nix and TypeScript.
+- University of California, Santa Barbara. September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Thinking about exactly solvable models in quantum field theory. Lecturer and course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
 - Australian National University. February 2018 - August 2019. Postdoctoral fellow. Thinking about exactly solvable models in quantum field theory and low dimensional categories.
 - University of Sydney. August 2017 - January 2018. Postdoctoral researcher in Physics. Thinking about exactly solvable models in quantum field theory.
 - University of Michigan. September 2012 - May 2016. Graduate student instructor for calculus 1, 2 and 3. Taught classes with 20-30 students, three times a week. Held office hours. Helped students use Mathematica. Graded homework/exams.
@@ -16,7 +17,7 @@
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Papers
-- [arXiv:1907.06692](https://arxiv.org/abs/1907.06692). Computing data for Levin-Wen with defects. Joint with Jacob Bridgeman.
+- [arXiv:1907.06692](https://arxiv.org/abs/1907.06692). Computing data for Levin-Wen with defects. Joint with Jacob Bridgeman. **Published** in Quantum.
 - [arXiv:1901.08069](https://arxiv.org/abs/1901.08069). Computing Defects Associated to Bounded Domain Wall Structures: The ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$ case. Joint with Jacob Bridgeman. **Published** in Journal of Physics A.
 - [arXiv:1810.09469](https://arxiv.org/abs/1810.09469). Fusing Binary Interface Defects in Topological Phases: The ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$ case. Joint with Jacob Bridgeman and Corey Jones. **Published** in Journal of Mathematical Physics.
 - [arXiv:1806.01279](https://arxiv.org/abs/1806.01279). Domain walls in topological phases and the Brauer-Picard ring for ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$. Joint with Jacob Bridgeman and Corey Jones. **Published** in Communications in Mathematical Physics.
