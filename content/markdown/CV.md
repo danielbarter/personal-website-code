@@ -5,7 +5,7 @@
 
 
 ## Employment
-- Mercury Technologies, Inc. April 2020 - . Software Engineer. Technology stack: Haskell, PostgreSQL, Nix and TypeScript.
+- Mercury Technologies, Inc. April 2020 - . Software Engineer predominantly working on the Mercury backend server. Software stack: Haskell, PostgreSQL, Nix and TypeScript.
 - University of California, Santa Barbara. September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Thinking about exactly solvable models in quantum field theory. Lecturer and course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
 - Australian National University. February 2018 - August 2019. Postdoctoral fellow. Thinking about exactly solvable models in quantum field theory and low dimensional categories.
 - University of Sydney. August 2017 - January 2018. Postdoctoral researcher in Physics. Thinking about exactly solvable models in quantum field theory.
