@@ -5,10 +5,10 @@
 
 
 ## Employment
-- Mercury Technologies, Inc. April 2020 - August 2020. Software Engineer. Predominantly working on the backend web server.
-- University of California, Santa Barbara. September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Thinking about exactly solvable models in quantum field theory. Lecturer and course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
-- Australian National University. February 2018 - August 2019. Postdoctoral fellow. Thinking about exactly solvable models in quantum field theory and low dimensional categories.
-- University of Sydney. August 2017 - January 2018. Postdoctoral researcher in Physics. Thinking about exactly solvable models in quantum field theory.
+- Mercury Technologies, Inc. April 2020 - August 2020. Software Engineer. Added many features to the backend web server. Diagnosed and fixed a subtle bug which was causing hundreds of errors per minute to go unlogged.
+- University of California, Santa Barbara. September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
+- Australian National University. February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
+- University of Sydney. August 2017 - January 2018. Postdoctoral researcher in Physics. Learned quantum field theory by interacting with researchers in condensed matter physics and quantum information theory.
 - University of Michigan. September 2012 - May 2016. Graduate student instructor for calculus 1, 2 and 3. Taught classes with 20-30 students, three times a week. Held office hours. Helped students use Mathematica. Graded homework/exams.
 - University of Sydney. March 2011 - June 2012. Tutor for calculus 1 and 2. Supervised problem sessions and graded homework/exams.
 
@@ -23,9 +23,9 @@
 - [arXiv:1806.01279](https://arxiv.org/abs/1806.01279). Domain walls in topological phases and the Brauer-Picard ring for ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$. Joint with Jacob Bridgeman and Corey Jones. **Published** in Communications in Mathematical Physics.
 - [arXiv:1706.03645](https://arxiv.org/abs/1706.03645). Deligne categories and representations of the infinite symmetric group. Joint with Inna Entova-Aizenbud and Thorsten Heidersdorf. **Published** in Advances in Mathematics.
 - [arXiv:1611.00071](https://arxiv.org/abs/1611.00071). Eigenvalues of rotations and braids in spherical fusion categories. Joint with Corey Jones and Henry Tucker. **Published** in Journal of Algebra.
-- [arXiv:1610.05204](https://arxiv.org/abs/1610.05204). Computing the minimal model for the quantum symmetric algebra. 
-- [arXiv:1610.05248](https://arxiv.org/abs/1610.05248). A remark about 6j symbols and young semi-normal form. 
-- [arXiv:1509.04228](http://arxiv.org/abs/1509.04228). Noetherianity and rooted trees. 
+- [arXiv:1610.05204](https://arxiv.org/abs/1610.05204). Computing the minimal model for the quantum symmetric algebra.
+- [arXiv:1610.05248](https://arxiv.org/abs/1610.05248). A remark about 6j symbols and young semi-normal form.
+- [arXiv:1509.04228](http://arxiv.org/abs/1509.04228). Noetherianity and rooted trees.
 
 
 ## Invited Talks
