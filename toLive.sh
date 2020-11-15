@@ -1,5 +1,3 @@
-#!/bin/bash 
-
 if [ -e site ]
 then
   rsync -r --delete ./site/* ../danielbarter.github.io/
