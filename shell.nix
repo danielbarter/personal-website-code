@@ -1,9 +1,16 @@
 with (import <nixpkgs> {});
 
-let project = haskellPackages.callCabal2nix "personal-website-code" ./. {};
+let pkgs = p: [ p.base
+                p.directory
+                p.filepath
+                p.cryptohash-md5
+                p.bytestring
+                p.text
+                p.pandoc
+              ];
 in mkShell {
-  buildInputs = project.env.nativeBuildInputs ++
-                [haskellPackages.cabal-install
-                 texlive.combined.scheme-medium
+  buildInputs = [ texlive.combined.scheme-medium
+                  (haskellPackages.ghcWithPackages pkgs)
+                  haskellPackages.cabal-install
                 ];
 }
