@@ -61,25 +61,22 @@ main =
   where pmd = processText markdownToHTML
 
 
+myMarkdownExtensions = foldr enableExtension githubMarkdownExtensions
+  [ Ext_backtick_code_blocks
+  , Ext_tex_math_dollars
+  ]
 
 markdownToHTML :: T.Text -> Either PandocError T.Text
 markdownToHTML t =
   runPure $ readMarkdown mdReaderOptions t >>= ( writeHtml5String htmlWriterOptions )
-  where mdReaderOptions =
-          def { readerExtensions =
-               enableExtension Ext_tex_math_dollars githubMarkdownExtensions
-              }
-        htmlWriterOptions =
-          def { writerHTMLMathMethod = MathJax defaultMathJaxURL }
+  where mdReaderOptions = def { readerExtensions = myMarkdownExtensions }
+        htmlWriterOptions = def { writerHTMLMathMethod = MathJax defaultMathJaxURL}
 
 
 markdownToTex :: T.Text -> Either PandocError T.Text
 markdownToTex t =
   runPure $ readMarkdown mdReaderOptions t >>= ( writeLaTeX def )
-  where mdReaderOptions =
-          def { readerExtensions =
-               enableExtension Ext_tex_math_dollars githubMarkdownExtensions
-              }
+  where mdReaderOptions = def { readerExtensions = myMarkdownExtensions }
 
 -- TODO: factor out hash checking
 copy :: FilePath -> FilePath -> IO ()
