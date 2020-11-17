@@ -70,7 +70,8 @@ markdownToHTML :: T.Text -> Either PandocError T.Text
 markdownToHTML t =
   runPure $ readMarkdown mdReaderOptions t >>= ( writeHtml5String htmlWriterOptions )
   where mdReaderOptions = def { readerExtensions = myMarkdownExtensions }
-        htmlWriterOptions = def { writerHTMLMathMethod = MathJax defaultMathJaxURL}
+        -- there is a defaultMathJax variable in newer versions of pandoc
+        htmlWriterOptions = def { writerHTMLMathMethod = MathJax "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"} 
 
 
 markdownToTex :: T.Text -> Either PandocError T.Text
