@@ -5,12 +5,13 @@
 
 
 ## Employment
-- Mercury Technologies, Inc. April 2020 - August 2020. Software Engineer. Added many features to the backend web server. Diagnosed and fixed a subtle bug which was causing hundreds of errors per minute to go unlogged.
-- University of California, Santa Barbara. September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
-- Australian National University. February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
-- University of Sydney. August 2017 - January 2018. Postdoctoral researcher in Physics. Learned quantum field theory by interacting with researchers in condensed matter physics and quantum information theory.
-- University of Michigan. September 2012 - May 2016. Graduate student instructor for calculus 1, 2 and 3. Taught classes with 20-30 students, three times a week. Held office hours. Helped students use Mathematica. Graded homework/exams.
-- University of Sydney. March 2011 - June 2012. Tutor for calculus 1 and 2. Supervised problem sessions and graded homework/exams.
+- **Lawrence Berkeley National Laboratory.** November 2020 - . Postdoctoral Fellow in the Applied Energy Materials Group.
+- **Mercury Technologies, Inc.** April 2020 - August 2020. Software Engineer. Added many features to the backend web server. Diagnosed and fixed a subtle bug which was causing hundreds of errors per minute to go unlogged.
+- **University of California, Santa Barbara.** September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
+- **Australian National University.** February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
+- **University of Sydney.** August 2017 - January 2018. Postdoctoral researcher in Physics. Learned quantum field theory by interacting with researchers in condensed matter physics and quantum information theory.
+- **University of Michigan.** September 2012 - May 2016. Graduate student instructor for calculus 1, 2 and 3. Taught classes with 20-30 students, three times a week. Held office hours. Helped students use Mathematica. Graded homework/exams.
+- **University of Sydney.** March 2011 - June 2012. Tutor for calculus 1 and 2. Supervised problem sessions and graded homework/exams.
 
 ## Education
 - PhD, Pure Mathematics, University of Michigan. September 2012 - May 2017. Specialized in category theory and representation theory. Thesis: [Some Remarks about the Interaction between Quantum Algebra and Representation Stability.](https://danielbarter.github.io/pdf/thesis.pdf)
