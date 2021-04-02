@@ -30,7 +30,7 @@
 
 ## Software
 - [RNMC_native](https://github.com/danielbarter/RNMC_native). High performance reaction network monte carlo simulator.
-- [artin_wedderburn](https://github.com/danielbarter/artin_wedderburn). Program for numerically computing the irreducible representations of a semisimple algebra over the complex numbers.
+- [artin_wedderburn](https://github.com/danielbarter/artin_wedderburn). Package for numerically computing irreducible representations of semi-simple algebras over the complex numbers.
 
 ## Invited Talks
 - Perimeter Institute Mathematical Physics Seminar, 2019, [Computing Renormalization Invariant Properties of Levin-Wen phases](http://pirsa.org/displayFlash.php?id=19080085).
