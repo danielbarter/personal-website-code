@@ -21,7 +21,8 @@ pre { border:solid 1px #c3c3c3;
     }
 
 nav { overflow-x:auto;
-      white-space: nowrap
+      white-space: nowrap;
+      overflow-y: hidden;
     }
 
 img { border-radius:8px 8px 8px 8px;
