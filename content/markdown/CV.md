@@ -29,8 +29,8 @@
 - [arXiv:1509.04228](http://arxiv.org/abs/1509.04228). Noetherianity and rooted trees.
 
 ## Software
-- [RNMC_native](https://github.com/danielbarter/RNMC_native). High performance reaction network monte carlo simulator.
-- [artin_wedderburn](https://github.com/danielbarter/artin_wedderburn). Package for numerically computing irreducible representations of semi-simple algebras over the complex numbers.
+- [RNMC](https://github.com/BlauGroup/RNMC). Reaction network monte carlo simulator optimized for running large parallel simulations of a fixed, densely connected reaction networks.
+- [HiPRGen](https://github.com/BlauGroup/HiPRGen). Program for generating reaction networks, using MPI for multi-node parallelism.
 
 ## Invited Talks
 - Perimeter Institute Mathematical Physics Seminar, 2019, [Computing Renormalization Invariant Properties of Levin-Wen phases](http://pirsa.org/displayFlash.php?id=19080085).
