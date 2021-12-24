@@ -18,6 +18,7 @@
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Papers
+- [chemrxiv:2021-c2gp3](https://doi.org/10.26434/chemrxiv-2021-c2gp3). Template-free reaction networks enable predictive and automated analysis of complex electrochemical reaction cascades. Joint work with Evan Spotte-Smith, Sam Blau and others.
 - [arXiv:2110.03644](http://arxiv.org/abs/2110.03644). Computing associators of endomorphism fusion categories. Joint with Jacob Bridgeman and Ramona Wolf.
 - [arXiv:1907.06692](https://arxiv.org/abs/1907.06692). Computing data for Levin-Wen with defects. Joint with Jacob Bridgeman. **Published** in Quantum.
 - [arXiv:1901.08069](https://arxiv.org/abs/1901.08069). Computing Defects Associated to Bounded Domain Wall Structures: The ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$ case. Joint with Jacob Bridgeman. **Published** in Journal of Physics A.
