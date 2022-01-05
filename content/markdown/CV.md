@@ -14,7 +14,7 @@
 - **University of Sydney.** March 2011 - June 2012. Tutor for calculus 1 and 2. Supervised problem sessions and graded homework/exams.
 
 ## Education
-- PhD, Pure Mathematics, University of Michigan. September 2012 - May 2017. Specialized in category theory and representation theory. Thesis: [Some Remarks about the Interaction between Quantum Algebra and Representation Stability.](https://danielbarter.github.io/pdf/thesis.pdf)
+- PhD, Mathematics, University of Michigan. September 2012 - May 2017. Specialized in representation theory. Thesis: [Some Remarks about the Interaction between Quantum Algebra and Representation Stability.](https://danielbarter.github.io/pdf/thesis.pdf)
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Papers
