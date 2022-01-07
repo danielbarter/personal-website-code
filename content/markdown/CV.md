@@ -31,7 +31,7 @@
 - [arXiv:1509.04228](http://arxiv.org/abs/1509.04228). Noetherianity and rooted trees.
 
 ## Software
-- [RNMC](https://github.com/BlauGroup/RNMC). Monte Carlo simulator optimized for running simulations of a fixed, densely connected reaction network.
+- [RNMC](https://github.com/BlauGroup/RNMC). High performance statistical mechanics Monte Carlo simulator.
 - [HiPRGen](https://github.com/BlauGroup/HiPRGen). Program for generating reaction networks, using MPI for multi-node parallelism.
 
 ## Invited Talks
