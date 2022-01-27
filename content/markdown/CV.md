@@ -18,7 +18,7 @@
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
-- **C++** : Language of choice for programs which need to run fast. [RNMC](https://github.com/BlauGroup/RNMC) is the largest C++ program I have built. If there is a bug, I will find it. Some of my favourite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb.
+- **C++** : Language of choice for programs which need to run fast. [RNMC](https://github.com/BlauGroup/RNMC) is the largest C++ program I have built. Good debugging skills. Some of my favourite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb.
 - **Python** : Scripting language of choice. [HiPRGen](https://github.com/BlauGroup/HiPRGen) is the largest python program I have built. My favourite way to use python is embedding it into a C++ program. Comfortable with core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, jax.
 - **Haskell** : Langauge of choice for writing quick web servers, compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
 - **Nix** : Package manager of choice. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines, from laptops to a desktop with an Nvidia GPU that is able to use the official Nvidia drivers for scientific computing and vfio passthrough for windows virtualization.
