@@ -1,4 +1,4 @@
-with (import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-20.03.tar.gz") {});
+with (import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-21.11.tar.gz") {});
 let hpkgs = p: [ p.base
                  p.directory
                  p.filepath
