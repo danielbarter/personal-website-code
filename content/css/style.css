@@ -35,11 +35,31 @@ img { border-radius:8px 8px 8px 8px;
       width: auto;
     }
 
-.kw { color: #859900
+.kw { color: #859900;
+      font-weight: bolder;
     }
 
-.bu { color: #268bd2
+.im { color: #859900;
+      font-weight: bolder;
     }
 
-.st { color: #657b83
+.cf { color: #859900;
+      font-weight: bolder;
+     }
+
+.bu { color: #268bd2;
+      font-weight: bolder
+    }
+
+.co { color: #93a1a1
+    }
+
+.ch { color: #2aa198
+    }
+
+
+.st { color: #2aa198
+    }
+
+.at { color: #cb4b16
     }
