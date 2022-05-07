@@ -33,7 +33,7 @@ main =
   do setCurrentDirectory "/home/danielbarter/personal-website-code"
      createDirectoryTree
      processText ( Right . id ) "./content/html/home.html" "./site/index.html"
-     processText ( Right . id ) "./content/html/fusion.html" "./site/fusion.html"
+     processText ( Right . id ) "./content/html/noise.html" "./site/noise.html"
      pmd "./content/markdown/CV.md" "./site/CV.html"
      cvTex "./content/markdown/CV.md" "./content/tex/CV.tex"
      pmd "./content/markdown/publickey.md" "./site/publickey.html"
