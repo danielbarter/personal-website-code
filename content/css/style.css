@@ -1,3 +1,7 @@
+html { max-width: 1080px;
+       margin: auto
+     }
+
 body { font-family:"Source Sans Pro",sans-serif;
        font-size:24px;
        line-height:28px;
@@ -29,4 +33,13 @@ img { border-radius:8px 8px 8px 8px;
       max-width: 100%;
       height: auto;
       width: auto;
+    }
+
+.kw { color: #859900
+    }
+
+.bu { color: #268bd2
+    }
+
+.st { color: #657b83
     }
