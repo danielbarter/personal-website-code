@@ -56,7 +56,7 @@ def find_minima(
 
     return point
 ```
-This is just a standard gradient descent loop. Now, if we represent a path using a sequence of points, we want to optimize the path so it slides downhill, while ensuring that the points don't move to far away from each other. This logic is encoded in the `action` which we use to weight a section of our path:
+This is just a standard gradient descent loop. Now, if we represent a path using a sequence of points, we want to optimize the path so it slides downhill, while ensuring that the points don't move too far away from each other. This logic is encoded in the `action` which we use to weight a section of our path:
 
 
 ```python
