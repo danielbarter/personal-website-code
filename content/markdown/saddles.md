@@ -39,8 +39,7 @@ def find_minima(
         initial_point,
         num_steps,
         step_factor,
-        log_frequency=1000
-):
+        log_frequency=1000):
     """
     loop for finding minima
     """
@@ -78,8 +77,7 @@ def lagrangian(
         points,        # n points
         start,         # start point. fixed
         end,           # end point. fixed
-        distance_factor
-):
+        distance_factor):
 
     accumulator = action(function, start, points[0], distance_factor)
 
@@ -91,7 +89,7 @@ def lagrangian(
 
     return accumulator
 ```
-notice that we deal with the start point and end point separately. This ensures that the start and end points remain fixed. If they didn't, the exponential term in the action would just force the entire path to collapse to a point. Now that we have defined the Lagrangian of a path, we can write the obvious training loop:
+notice that we deal with the start point and end point separately. This ensures that the start and end points remain fixed. If they didn't, the exponential term in the action would just force the entire path to collapse to a point. Now that we have defined the Lagrangian of a path, we can write the obvious optimization loop:
 
 ```python
 @partial(jax.jit, static_argnums=[0])
@@ -122,8 +120,7 @@ def find_critical_path(
         num_steps,
         step_factor,
         distance_factor,
-        log_frequency=1000
-):
+        log_frequency=1000):
 
     print("computing critical_path...")
     result = []
