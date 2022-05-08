@@ -1,5 +1,15 @@
 # Saddles
 
+Given a smooth function $f : \mathbb{R}^d \to \mathbb{R}$, it is natural to try and compute its critical points. Minima can be computed numerically using gradient descent. In this note, we are going to explain how to compute saddle points of $f$ numerically, using automatic differentiation primitives provided by [jax](https://github.com/google/jax). As an example, we shall use the Wolfe Schlegel surface:
+
+```python
+@jax.jit
+def wolfe_schlegel(point):
+    x = point[0]
+    y = point[1]
+    return 10 * ( x**4 + y**4 - 2 * x*x - 4 * y*y +
+                  x * y + 0.2 * x + 0.1 * y )
+```
 
 ```python
 import jax
