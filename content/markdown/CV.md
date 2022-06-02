@@ -3,10 +3,9 @@
 - website: [danielbarter.github.io](http://danielbarter.github.io/)
 - email: <danielbarter@gmail.com>
 
-
 ## Employment
 - **Google.** May 2022 - . Software Engineer.
-- **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Working on short time scale simulations of metal ion batteries.
+- **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Working on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/BlauGroup/RNMC) and [HiPRGen](https://github.com/BlauGroup/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer.
 - **University of California, Santa Barbara.** September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
 - **Australian National University.** February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
@@ -19,9 +18,9 @@
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
-- **C++** : Language of choice for programs which need to run fast. [RNMC](https://github.com/BlauGroup/RNMC) is the largest C++ program I have built. Good debugging skills. Some of my favourite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb, gprof.
-- **Python** : Scripting language of choice. [HiPRGen](https://github.com/BlauGroup/HiPRGen) is the largest python program I have built. My favourite way to use python is embedding it into a C++ program. Comfortable with core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, jax.
-- **Haskell** : Langauge of choice for writing quick web servers, compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
+- **C++** : Language of choice for programs which need to run fast. Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb, gprof.
+- **Python** : Scripting language of choice. Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, jax.
+- **Haskell** : Language of choice for writing compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
 - **Nix** : Package manager of choice. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines, from laptops to a desktop with an Nvidia GPU that is able to use the official Nvidia drivers for scientific computing and vfio passthrough for windows virtualization.
 
 
