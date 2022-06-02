@@ -5,8 +5,9 @@
 
 
 ## Employment
-- **Lawrence Berkeley National Laboratory.** November 2020 - . Postdoctoral Fellow in the Applied Energy Materials Group. Working on short time scale simulations of metal ion batteries.
-- **Mercury Technologies.** April 2020 - August 2020. Software Engineer. Added many features to the backend web server. Diagnosed and fixed a race condition which was causing hundreds of errors per minute to go unlogged.
+- **Google.** May 2022 - . Software Engineer.
+- **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Working on short time scale simulations of metal ion batteries.
+- **Mercury Technologies.** April 2020 - August 2020. Software Engineer.
 - **University of California, Santa Barbara.** September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
 - **Australian National University.** February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
 - **University of Sydney.** August 2017 - January 2018. Postdoctoral researcher in Physics. Learned quantum field theory by interacting with researchers in condensed matter physics and quantum information theory.
