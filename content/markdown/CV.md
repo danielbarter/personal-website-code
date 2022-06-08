@@ -21,7 +21,7 @@
 - **C++** : Language of choice for programs which need to run fast. Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb, gprof.
 - **Python** : Scripting language of choice. Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, jax.
 - **Haskell** : Language of choice for writing compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
-- **Nix** : Package manager of choice. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines, from laptops to a desktop with an Nvidia GPU that is able to use the official Nvidia drivers for scientific computing and vfio passthrough for windows virtualization.
+- **Nix** : Package manager of choice. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines.
 
 
 ## Papers
