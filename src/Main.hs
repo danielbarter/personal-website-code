@@ -58,6 +58,11 @@ main =
      let pdfSources = ("./content/pdf/" ++ ) <$> pdfNames
      let pdfTargets = ("./site/pdf/" ++ ) <$> pdfNames
      sequence $ zipWith copy pdfSources pdfTargets
+     fontContents <- listDirectory "./content/fonts"
+     let fontNames = filter ( not . isExtensionOf "md5") fontContents
+     let fontSources = ("./content/fonts/" ++ ) <$> fontNames
+     let fontTargets = ("./site/fonts/" ++ ) <$> fontNames
+     sequence $ zipWith copy fontSources fontTargets
      return ()
   where pmd = processText markdownToHTML
 
@@ -126,6 +131,7 @@ createDirectoryTree = do mkdir "site"
                          mkdir "img"
                          mkdir "js"
                          mkdir "pdf"
+                         mkdir "fonts"
                          setCurrentDirectory "../"
   where mkdir = createDirectoryIfMissing False
 
