@@ -27,7 +27,7 @@
 ## Papers
 - [doi:10.26434/chemrxiv-2022-n236n](https://doi.org/10.26434/chemrxiv-2022-n236n). Towards a Mechanistic Model of Solid-Electrolyte Interphase Formation and Evolution in Lithium-ion Batteries. Joint work with Evan Spotte-Smith, Ronald Kam and others.
 - [doi:10.26434/chemrxiv-2021-c2gp3](https://doi.org/10.26434/chemrxiv-2021-c2gp3-v2). Predictive stochastic analysis of massive filter-based electrochemical reaction networks. Joint work with Evan Spotte-Smith, Sam Blau and others.
-- [arXiv:2110.03644](http://arxiv.org/abs/2110.03644). Computing associators of endomorphism fusion categories. Joint with Jacob Bridgeman and Ramona Wolf.
+- [arXiv:2110.03644](http://arxiv.org/abs/2110.03644). Computing associators of endomorphism fusion categories. Joint with Jacob Bridgeman and Ramona Wolf. **Published** in SciPost.
 - [arXiv:1907.06692](https://arxiv.org/abs/1907.06692). Computing data for Levin-Wen with defects. Joint with Jacob Bridgeman. **Published** in Quantum.
 - [arXiv:1901.08069](https://arxiv.org/abs/1901.08069). Computing Defects Associated to Bounded Domain Wall Structures: The ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$ case. Joint with Jacob Bridgeman. **Published** in Journal of Physics A.
 - [arXiv:1810.09469](https://arxiv.org/abs/1810.09469). Fusing Binary Interface Defects in Topological Phases: The ${\bf Vec}(\mathbb{Z}/p\mathbb{Z})$ case. Joint with Jacob Bridgeman and Corey Jones. **Published** in Journal of Mathematical Physics.
