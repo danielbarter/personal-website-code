@@ -4,7 +4,7 @@
 - email: <danielbarter@gmail.com>
 
 ## Employment
-- **Google.** May 2022 - . Software Engineer.
+- **Google.** May 2022 - . Software Engineer. Worked on some android stuff. Contributing to [Stim](https://github.com/quantumlib/Stim)
 - **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/BlauGroup/RNMC) and [HiPRGen](https://github.com/BlauGroup/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer.
 - **University of California, Santa Barbara.** September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
@@ -18,7 +18,7 @@
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
-- **C++** : Preferred language for programs which need to run fast. Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, openMPI, valgrind, gdb, perf.
+- **C++** : Preferred language for programs which need to run fast. Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, openMPI, gdb, perf.
 - **Python** : Scripting language of choice. Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, sympy, matplotlib, jax.
 - **Haskell** : Preferred language for writing compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
 - **Nix** : Favorite package manager. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines.
