@@ -8,22 +8,6 @@
  }
 </script>
 
-<script>
-  var nav_bar = document.getElementById("navbar");
-
-  function nav_bar_scroll(event) {
-      event.preventDefault();
-
-      if ( event.deltaY > 0)
-          nav_bar.scrollLeft += 100;
-      else
-          nav_bar.scrollLeft -= 100;
-  };
-
-  nav_bar.onwheel = nav_bar_scroll;
-</script>
-
-
 <p>Hi 😄 My name is <strong>Daniel Barter.</strong> I like mathematics, physics and high performance computing <script> document.write(getImage()); </script></p>
 
 <img src="./img/track_stand_lowres.jpg"/>
