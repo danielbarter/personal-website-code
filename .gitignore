@@ -1,6 +1,7 @@
 site
 
 ### Haskell ###
+hie.yaml
 dist
 dist-*
 cabal-dev

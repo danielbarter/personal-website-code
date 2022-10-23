@@ -6,10 +6,12 @@ let hpkgs = p: [ p.base
                  p.bytestring
                  p.text
                  p.pandoc
+                 p.cabal-install
+                 p.haskell-language-server
+                 p.implicit-hie
                ];
 in mkShell {
   buildInputs = [ texlive.combined.scheme-medium
                   (haskellPackages.ghcWithPackages hpkgs)
-                  haskellPackages.cabal-install
                 ];
 }
