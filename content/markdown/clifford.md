@@ -74,3 +74,11 @@ $$
 C_X = \left[ X_1 X_2 \quad X2 \; | \; Z1 \quad Z1 Z2 \right]
 $$
 
+### Stabilizer states
+
+We can define a map $C_n \to H$ which sends $c$ to the unit length state which is stabilized by $c \cdot z_1, \; \dots, \; c \cdot z_n$. We call this a **stabilizer state**. The simplest example is $|00\cdots0 \rangle$, which is the stabilizer state corresponding to the identity operator. The stabilizer state corresponding to $H$ is
+$$
+\frac{1}{\sqrt{2}} \left( |0\rangle + |1\rangle \right).
+$$
+Notice that the mapping $C_n \to H$ is not injective: For example, $\left[ XZ \; | \; X \right]$ is a valid tableau with the same stabilizer state. The fundamental idea behind the Gottesman-Knill theorem is to represent a stabilizer state using a clifford operator which generates it.
+
