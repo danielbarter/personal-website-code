@@ -76,9 +76,15 @@ $$
 
 ### Stabilizer states
 
-We can define a map $C_n \to H$ which sends $c$ to the unit length state which is stabilized by $c \cdot z_1, \; \dots, \; c \cdot z_n$. We call this a **stabilizer state**. The simplest example is $|00\cdots0 \rangle$, which is the stabilizer state corresponding to the identity operator. The stabilizer state corresponding to $H$ is
+We define a map $C_n \to H$ which sends $c$ to the unit length state which is stabilized by $c \cdot Z_1, \; \dots, \; c \cdot Z_n$. We call this a **stabilizer state**. The simplest example is $|00\cdots0 \rangle$, which is the stabilizer state corresponding to the identity operator. The stabilizer state corresponding to $H$ is
 $$
 \frac{1}{\sqrt{2}} \left( |0\rangle + |1\rangle \right).
 $$
 Notice that the mapping $C_n \to H$ is not injective: For example, $\left[ XZ \; | \; X \right]$ is a valid tableau with the same stabilizer state. The fundamental idea behind the Gottesman-Knill theorem is to represent a stabilizer state using a clifford operator which generates it.
+
+Now suppose that $c_1, c_2 \in C_n$ are clifford operators. If $\psi$ is the stabilizer state corresponding to $c_2$, then we have $c_2 Z_i c_2^{-1} \psi = \psi$ for each $i$. This implies that $c_1 c_2 Z_i c_2^{-1} c_1^{-1} c_1 \psi = c_1 \psi$ for all $i$, so $c_1 \psi$ is the stabilizer state corresponding to $c_1 c_2$. In other words, we can simulate applying a Clifford circuit to a stabilizer state by accumulating the Clifford gates in the Clifford group. This idea of representing stabilizer states using Clifford operators is often referred to as the **stabilizer formalism**.
+
+### Measurement in the stabilizer formalism
+
+To build a useful simulator, we also need to be able to simulate measurements. Suppose that we have a tableau $c = \left[ p_1 \; \cdots \; p_n \; | \; q_1 \; \cdots \; q_n \right]$ with stabilizer state $\psi$ and a pauli $m$ which we want to measure. If $m$ commutes with each $q_i$, then $m \psi$ is also a stabilizer state for $c$, so we must have $m \psi = \psi$. Therefore, $m$ will measure $1$ and the state will not be modified.
 
