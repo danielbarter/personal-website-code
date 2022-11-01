@@ -86,5 +86,6 @@ Now suppose that $c_1, c_2 \in C_n$ are clifford operators. If $\psi$ is the sta
 
 ### Measurement in the stabilizer formalism
 
-To build a useful simulator, we also need to be able to simulate measurements. Suppose that we have a tableau $c = \left[ p_1 \; \cdots \; p_n \; | \; q_1 \; \cdots \; q_n \right]$ with stabilizer state $\psi$ and a pauli $m$ which we want to measure. If $m$ commutes with each $q_i$, then $m \psi$ is also a stabilizer state for $c$, so we must have $m \psi = \psi$. Therefore, $m$ will measure $1$ and the state will not be modified.
+To build a useful simulator, we also need to simulate measurements. Suppose that we have a tableau $c = \left[ p_1 \; \cdots \; p_n \; | \; q_1 \; \cdots \; q_n \right]$ with stabilizer state $\psi$ and a Pauli $m$ which we want to measure. If $m$ commutes with each $q_i$, then $m \psi$ is also a stabilizer state for $c$, so we must have $m \psi = \psi$. Therefore, $m$ will measure $1$ and the state will not be modified.
 
+Any two elements of the Pauli group either commute or anit-commute. Suppose that $m$ doesn't commute with each $q_i$. After permuting the qubits, we can assume that $m$ anti-commutes with $q_1$.
