@@ -39,7 +39,6 @@ main =
      pmd "./content/markdown/publickey.md" "./site/publickey.html"
      pmd "./content/markdown/mix.md" "./site/mix.html"
      pmd "./content/markdown/saddles.md" "./site/saddles.html"
-     pmd "./content/markdown/clifford.md" "./site/clifford.html"
      pmd "./content/markdown/tableau.md" "./site/tableau.html"
      copy "./content/js/mix.js" "./site/js/mix.js"
      copy "./content/js/tableau.js" "./site/js/tableau.js"
