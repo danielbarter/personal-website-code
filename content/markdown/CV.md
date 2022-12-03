@@ -4,6 +4,7 @@
 - email: <danielbarter@gmail.com>
 
 ## Employment
+- **PsiQuantum.** November 2022 - . Computational Physicist.
 - **Google.** May 2022 - September 2022. Software Engineer. Worked on Android auto. Contributed to [Stim](https://github.com/quantumlib/Stim).
 - **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/BlauGroup/RNMC) and [HiPRGen](https://github.com/BlauGroup/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer. Worked on backend server written in Haskell.
