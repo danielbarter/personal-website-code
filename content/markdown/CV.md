@@ -26,6 +26,7 @@
 
 
 ## Papers
+- [doi:10.26434/chemrxiv-2023-tntkg-v2](https://doi.org/10.26434/chemrxiv-2023-tntkg-v2). Chemical Reaction Networks Explain Gas Evolution Mechanisms in Mg-Ion Batteries. Joint work with Evan Spotte-Smith, Sam Blau and others.
 - [doi:10.26434/chemrxiv-2022-n236n](https://doi.org/10.26434/chemrxiv-2022-n236n). Towards a Mechanistic Model of Solid-Electrolyte Interphase Formation and Evolution in Lithium-ion Batteries. Joint work with Evan Spotte-Smith, Ronald Kam and others.
 - [doi:10.26434/chemrxiv-2021-c2gp3](https://doi.org/10.26434/chemrxiv-2021-c2gp3-v2). Predictive stochastic analysis of massive filter-based electrochemical reaction networks. Joint work with Evan Spotte-Smith, Sam Blau and others.
 - [arXiv:2110.03644](http://arxiv.org/abs/2110.03644). Computing associators of endomorphism fusion categories. Joint with Jacob Bridgeman and Ramona Wolf. **Published** in SciPost.
