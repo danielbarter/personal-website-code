@@ -3,8 +3,17 @@
 - website: [danielbarter.github.io](http://danielbarter.github.io/)
 - email: <danielbarter@gmail.com>
 
+## Bio
+
+I am a software engineer, working in scientific and high performance computing, mostly writing simulators. I have worked on simulators for
+
+- 2D gapped topological phases of matter
+- Lithium and Magnesium ion batteries
+- Clifford circuits (stabilizer states)
+- Linear optical circuits (quantum optical states)
+
 ## Employment
-- **PsiQuantum.** November 2022 - . Computational Physicist.
+- **PsiQuantum.** November 2022 - . Computational Physicist. Working on quantum optics simulators.
 - **Google.** May 2022 - September 2022. Software Engineer. Worked on Android auto. Contributed to [Stim](https://github.com/quantumlib/Stim).
 - **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/BlauGroup/RNMC) and [HiPRGen](https://github.com/BlauGroup/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer. Worked on backend server written in Haskell.
@@ -21,7 +30,6 @@
 ## Software
 - **C++** : Preferred language for programs which need to run fast. Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, pybind11, openMPI, gdb, perf.
 - **Python** : Scripting language of choice. Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, sympy, matplotlib, jax.
-- **Haskell** : Preferred language for writing compilers and interpreters. Very comfortable with all the core abstractions and the C FFI.
 - **Nix** : Favorite package manager. Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines. I actively contribute to [nixpkgs](https://github.com/NixOS/nixpkgs)
 
 
