@@ -15,7 +15,7 @@ I am a software engineer, working in scientific and high performance computing, 
 ## Employment
 - **PsiQuantum.** November 2022 - . Computational Physicist. Working on quantum optics simulators.
 - **Google.** May 2022 - September 2022. Software Engineer. Worked on Android auto. Contributed to [Stim](https://github.com/quantumlib/Stim).
-- **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/BlauGroup/RNMC) and [HiPRGen](https://github.com/BlauGroup/HiPRGen).
+- **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/danielbarter/RNMC) and [HiPRGen](https://github.com/danielbarter/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer. Worked on backend server written in Haskell.
 - **University of California, Santa Barbara.** September 2019 - March 2020. Lecturer and Postdoctoral Fellow. Course coordinator for [Calculus 4](https://danielbarter.github.io/pdf/calc_4_slides.pdf).
 - **Australian National University.** February 2018 - August 2019. Postdoctoral fellow. Worked on constructing new exactly solvable quantum field theories using tools from algebraic topology and low dimensional category theory.
