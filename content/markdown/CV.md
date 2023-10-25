@@ -9,8 +9,7 @@ I am a software engineer, working in scientific and high performance computing, 
 
 - 2D gapped topological phases of matter
 - Lithium and Magnesium ion batteries
-- Clifford circuits (stabilizer states)
-- Linear optical circuits (quantum optical states)
+- Quantum optics
 
 ## Employment
 - **PsiQuantum.** November 2022 - . Computational Physicist. Working on quantum optics simulators.
