@@ -29,7 +29,7 @@ I am a software engineer, working in scientific and high performance computing, 
 ## Software
 - **C++** : Good debugging skills. Some of my favorite libraries and tools: sqlite, pybind11, gdb, perf.
 - **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, jax, sympy, matplotlib, py-spy, memray, pydantic.
-- **Nix** (Package Manager) : Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines. I actively contribute to [nixpkgs](https://github.com/NixOS/nixpkgs)
+- **Linux** : Comfortable on any linux system running systemd, bash, tmux and emacs, in particular, Debian and NixOS. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my personal machines.
 
 
 ## Papers
