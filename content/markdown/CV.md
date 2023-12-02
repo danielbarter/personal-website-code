@@ -27,8 +27,8 @@ I am a software engineer, working in scientific and high performance computing, 
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
-- **C++** : Good debugging skills. Some of my favorite libraries and tools: sqlite, gsl, pybind11, openMPI, gdb, perf, opencl.
-- **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, sympy, matplotlib, pyopencl, jax, py-spy, memray.
+- **C++** : Good debugging skills. Some of my favorite libraries and tools: sqlite, pybind11, gdb, perf.
+- **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, jax, sympy, matplotlib, py-spy, memray, pydantic.
 - **Nix** (Package Manager) : Nix Lets me say with certainty that my software will run on any computer connected to the internet. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my Linux machines. I actively contribute to [nixpkgs](https://github.com/NixOS/nixpkgs)
 
 
