@@ -11,6 +11,8 @@ I am a software engineer, working in scientific and high performance computing, 
 - Lithium and Magnesium ion batteries
 - Linear optical quantum systems
 
+Recently, I have been thinking about fault tolerant quantum computing.
+
 ## Employment
 - **PsiQuantum.** November 2022 - . Computational Physicist. Working on quantum optics simulators.
 - **Google.** May 2022 - September 2022. Software Engineer. Worked on Android auto, mostly networking related stuff. Contributed to [Stim](https://github.com/quantumlib/Stim).
