@@ -5,7 +5,7 @@
 
 ## Bio
 
-I am a software engineer, working in scientific and high performance computing, mostly writing simulators. I have worked on simulators for
+I am a scientist, working in high performance computing. I have built simulators for
 
 - 2D gapped topological phases of matter
 - Lithium and Magnesium ion batteries
