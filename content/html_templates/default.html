@@ -8,9 +8,20 @@
     <link href="./img/favicon.png" rel="icon">
     <script async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script>
+     function getImage() {
+         var img = "<img src=\"./gif/low_pass_small_";
+         var num = Math.floor(Math.random() * 101);
+         img += num.toString();
+         img += ".gif\" style=\"height:16px; border-radius: 2px 2px 2px 2px\"/>";
+         return img;
+     }
+    </script>
   </head>
   <body>
     <nav id="navbar">
+      <script> document.write(getImage()); </script> 
       <a href="./index.html"> HOME </a>
       <span> / </span>
       <a href="./CV.html"> CV </a>

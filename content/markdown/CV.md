@@ -5,13 +5,10 @@
 
 ## Bio
 
-I am a scientist, working in high performance computing. I have built simulators for
-
-- 2D gapped topological phases of matter
-- Lithium and Magnesium ion batteries
-- Linear optical quantum systems
-
-Recently, I have been thinking about fault tolerant quantum computing.
+I am a mathematical physicist specializing in quantum computing.
+I have spent a lot of time thinking about the connection between topological quantum field theory and fault tolerance.
+Currently I work on fault tolerant logic for quantum LDPC codes.
+I also have a substantial amount of software experience, and have built simulators for 2D gapped topological phases of matter, lithium and magnesium ion batteries and linear optical quantum systems.
 
 ## Employment
 - **PsiQuantum.** November 2022 - . Computational Physicist. Working on quantum optics simulators.
@@ -31,7 +28,7 @@ Recently, I have been thinking about fault tolerant quantum computing.
 ## Software
 - **C++** : Good debugging skills. Some of my favorite libraries and tools: sqlite, pybind11, gdb, perf. I have some experience using OpenMP, OpenMPI and OpenCL.
 - **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, py-spy, memray, pydantic. I have some experience using jax and pytorch. I am really good at using pdb.
-- **Linux** : Good understanding of Linux user space. Comfortable on any Linux system running bash, tmux and emacs. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my personal machines.
+- **Linux** : Good understanding of Linux user space. Comfortable on any Linux system running bash and tmux. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my personal machines.
 
 
 ## Papers
