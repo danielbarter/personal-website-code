@@ -7,7 +7,7 @@
 
 I am a mathematical physicist specializing in quantum computing.
 I have spent a lot of time thinking about the connection between topological quantum field theory and fault tolerance.
-Currently I work on fault tolerant logic for quantum LDPC codes.
+Currently, I am interested in fault tolerant logic for quantum LDPC codes, and related problems like decoding.
 I also have a substantial amount of software experience, and have built simulators for 2D gapped topological phases of matter, lithium and magnesium ion batteries and linear optical quantum systems.
 
 ## Employment
