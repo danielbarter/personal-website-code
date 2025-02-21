@@ -5,10 +5,10 @@
 
 ## Bio
 
-I am a mathematical physicist specializing in quantum computing.
-I have spent a lot of time thinking about the connection between topological quantum field theory and fault tolerance.
-Currently, I am interested in fault tolerant logic for non topological codes, and related problems like decoding.
-I also have a substantial amount of software experience, and have built simulators for 2D gapped topological phases of matter, lithium and magnesium ion batteries and linear optical quantum systems.
+I am a mathematical physicist and software engineer, specializing in quantum computing.
+I have spent a lot of time thinking about the connection between topological quantum field theory and quantum error correction.
+I have built simulators for 2D gapped topological phases of matter, lithium and magnesium ion batteries and linear optical quantum systems.
+Currently, I work on quantum error correction simulations.
 
 ## Employment
 - **PsiQuantum.** November 2022 - . Computational Physicist. Worked on quantum optics simulators. Currently working on quantum error correction simulations.
