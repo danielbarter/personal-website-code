@@ -26,8 +26,8 @@ Currently, I work on quantum error correction simulations.
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
-- **C++** : Good debugging skills. Some of my favorite libraries and tools: sqlite, pybind11, gdb, perf. I have some experience using OpenMP, OpenMPI and OpenCL.
-- **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, scipy, matplotlib, py-spy, memray, pydantic. I have some experience using jax and pytorch. I am really good at using pdb.
+- **C++** : Good debugging skills. Some of my favorite libraries and tools: pybind11, sqlite, gdb, perf.
+- **Python** : Comfortable with the python/C interface and core parts of the python scientific computing ecosystem: numpy, pytorch, matplotlib, py-spy, memray, pydantic. I am really good at using pdb.
 - **Linux** : Good understanding of Linux user space. Comfortable on any Linux system running bash and tmux. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my personal machines.
 
 
