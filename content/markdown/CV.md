@@ -8,10 +8,10 @@
 I am a mathematical physicist and software engineer, specializing in quantum computing.
 I have spent a lot of time thinking about the connection between topological quantum field theory and quantum error correction.
 I have built simulators for 2D gapped topological phases of matter, lithium and magnesium ion batteries and linear optical quantum systems.
-Currently, I work on quantum error correction simulations.
+Currently, I work on quantum error correction simulations and machine learning decoders.
 
 ## Employment
-- **PsiQuantum.** November 2022 - . Computational Physicist. Worked on quantum optics simulators. Currently working on quantum error correction simulations.
+- **PsiQuantum.** November 2022 - . Computational Physicist. Worked on quantum optics simulators. Currently working on quantum error correction simulations and machine learning decoders.
 - **Google.** May 2022 - September 2022. Software Engineer. Worked on Android auto, mostly networking related stuff. Contributed to [Stim](https://github.com/quantumlib/Stim).
 - **Lawrence Berkeley National Laboratory.** November 2020 - May 2022. Postdoctoral Fellow in the Applied Energy Materials Group. Worked on short time scale simulations of metal ion batteries. Built [RNMC](https://github.com/danielbarter/RNMC) and [HiPRGen](https://github.com/danielbarter/HiPRGen).
 - **Mercury Technologies.** April 2020 - August 2020. Software Engineer. Worked on backend server written in Haskell.
