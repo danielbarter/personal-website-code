@@ -26,6 +26,7 @@ Currently, I work on the boundary between **machine learning** and **quantum err
 - B.Sc with First Class Honours and University Medal, Pure Mathematics, University of Sydney. March 2008 - December 2011.
 
 ## Software
+- Design and train machine-learning models for quantum-error-correction inference tasks, including decoding; use PyTorch for model development and orchestration, and build AI-agent-assisted kernels and GPU simulators in Triton to maximize training throughput and generate large-scale synthetic training data.
 - Fluent in python. Comfortable with C++.
 - Good understanding of Linux user space. Comfortable on any Linux system running bash and tmux. Check out my [NixOS configuration](https://github.com/danielbarter/nixos-config) which specifies all my personal machines.
 
